@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-server
+#配置git路径
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/turnmood/
+          search-paths: mood-cloud-learn
+
+server:
+  port: 8888
